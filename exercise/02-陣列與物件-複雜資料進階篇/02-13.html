@@ -1,36 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        http-equiv="X-UA-Compatible"
+        content="ie=edge"
+    >
     <title>陣列進階操作 every() </title>
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/02-13.css">
+    <link
+        rel="stylesheet"
+        href="./css/normalize.css"
+    >
+    <link
+        rel="stylesheet"
+        href="./css/02-13.css"
+    >
 </head>
+
 <body>
-    
-    <div id="app">      
-        <h1>制度規章</h1> 
+
+    <div id="app">
+        <h1>制度規章</h1>
         <form>
             <div class="item">
                 <h3>● 規章一</h3>
                 <p>規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章!</p>
-                <input id="query1" type="checkbox" name="query1">
+                <input
+                    id="query1"
+                    type="checkbox"
+                    name="query1"
+                >
                 <label for="query1">你願意遵守以上規章?</label></br>
             </div>
 
             <div class="item">
                 <h3>● 規章二</h3>
                 <p>規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章!</p>
-                <input id="query2" type="checkbox" name="query2">
+                <input
+                    id="query2"
+                    type="checkbox"
+                    name="query2"
+                >
                 <label for="query2">你願意遵守以上規章?</label></br>
             </div>
 
             <div class="item">
                 <h3>● 規章三</h3>
                 <p>規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章規章!</p>
-                <input id="query3" type="checkbox" name="query3">
+                <input
+                    id="query3"
+                    type="checkbox"
+                    name="query3"
+                >
                 <label for="query3">你願意遵守以上規章?</label></br>
             </div>
 
@@ -38,15 +64,15 @@
         </form>
     </div>
     <script>
-
+        //用every寫一個判斷是否所有的checkbox都被勾選的程式碼
         var submit = document.getElementById("submit");
 
-        function checkFn(){
-            
+        function checkFn() {
+
         }
 
-        function changeFn(){
-            
+        function changeFn() {
+
         }
 
 
@@ -56,12 +82,12 @@
         changeFn();
 
 
-        submit.addEventListener("click", function(){
-            alert("送出成功")
+        submit.addEventListener("click", function () {
+            alert("Success")
         })
-    
-    
-    
+
+
+
     </script>
 
 
@@ -70,4 +96,5 @@
 
 
 </body>
+
 </html>

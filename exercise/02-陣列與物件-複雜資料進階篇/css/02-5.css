@@ -1,67 +1,79 @@
-*{
+* {
     box-sizing: border-box;
 }
-html, body{
+
+html,
+body {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    font-family: "Microsoft JhengHei","Heiti TC","sans-serif";
+    font-family: "Microsoft JhengHei", "Heiti TC", "sans-serif";
     background-image: url("../images/bg.jpg");
     background-size: cover;
     background-position: 50% 0%;
 }
-.mid{
+
+.mid {
     width: 500px;
 }
 
-.mid > p{
+.mid>p {
     color: rgb(46, 46, 46);
     font-weight: bold;
     margin-bottom: 20px;
 }
-.mid > p > a{
+
+.mid>p>a {
     color: rgb(46, 46, 46);
     font-weight: bold;
 }
-.seach{
+
+.search {
     width: 100%;
     height: 30px;
     padding-left: 5px;
 }
-.seach_list{
+
+.search_list {
     width: 100%;
 }
-.seach_list > .item{
+
+.search_list>.item {
     width: 100%;
     background-color: #fff;
     padding: 30px 30px 25px 30px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.seach_list > .item > a{
+
+.search_list>.item>a {
     display: block;
 }
-.seach_list > .item > a.title{
+
+.search_list>.item>a.title {
     color: #000;
     text-decoration: none;
     font-size: 20px;
 }
-.seach_list > .item > a.link{
+
+.search_list>.item>a.link {
     font-size: 12px;
     color: cornflowerblue;
 }
-.seach_list > .item > a:hover{
+
+.search_list>.item>a:hover {
     color: rgb(40, 102, 218);
 }
-.seach_list > .item > p{
+
+.search_list>.item>p {
     font-size: 12px;
     line-height: 20px;
 }
 
-#btn{
+#btn {
     cursor: pointer;
     display: block;
     width: 200px;
