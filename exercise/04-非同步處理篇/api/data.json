@@ -15,42 +15,42 @@
     },
     {
         "idx": 3,
-        "name": "小鳥",
+        "name": "John",
         "money": 150,
         "age": 16,
         "sex": "Male"
     },
     {
         "idx": 4,
-        "name": "小貓",
+        "name": "Alex",
         "money": 360000,
         "age": 35,
         "sex": "Male"
     },
     {
         "idx": 5,
-        "name": "小狗",
+        "name": "Tom",
         "money": 650,
         "age": 19,
         "sex": "Male"
     },
     {
         "idx": 6,
-        "name": "鱷魚",
+        "name": "Jane",
         "money": 9999,
         "age": 40,
         "sex": "Female"
     },
     {
         "idx": 7,
-        "name": "龍蝦",
+        "name": "Emma",
         "money": 10,
         "age": 2,
         "sex": "Female"
     },
     {
         "idx": 8,
-        "name": "海藻",
+        "name": "Ben",
         "money": 500,
         "age": 30,
         "sex": "Male"
